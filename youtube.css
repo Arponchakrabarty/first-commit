@@ -1,0 +1,46 @@
+.font-roboto {
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#banner-image {
+  border-radius: 10px;
+  width: 300px;
+  aspect-ratio: 16/9;
+}
+#logo-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#name {
+  font-size: 0.85rem;
+}
+#title-div {
+  display: flex;
+  gap: 5px;
+}
+#vertical-icon {
+  margin-left: 5px;
+  padding-top: 10px;
+}
+#channel-div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-left: 44px;
+  width: fit-content;
+  height: 5px;
+  font-size: 0.8rem;
+}
+#view-div {
+  margin-left: 44px;
+  font-size: 0.8rem;
+  height: 15px;
+}
+#main-parent {
+  display: flex;
+}
