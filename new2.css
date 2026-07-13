@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-div {
+    display: flex;
+    gap: 10px;
+}
+#thumbnail {
+    width: 300px;
+    border-radius: 10px;
+}
+#name-1{
+    font-size: 20px;
+}
+#name-div {
+    display: flex;
+    gap: 10px;
+}
+#logo-img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+#logo-div {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+#content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+

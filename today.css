@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-div {
+    display: flex;
+    gap: 10px;
+    
+}
+#thumbnail-1 {
+    width: 300px;
+    border-radius: 10px;
+
+}
+#title-1{
+    font-size: 20px;
+
+}
+#logo-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#logo-div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-right: 200px;
+    background-color: brown;
+
+}
+
+
+#name-div {
+    display: flex;
+
+}
+#content-div {
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+
+}

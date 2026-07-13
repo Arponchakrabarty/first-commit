@@ -1,0 +1,12 @@
+#thumbnail-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+#name {
+    font-size: 20px;
+}
+#name-div {
+    display: flex;
+    gap: 15px;
+}
