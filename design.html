@@ -5,60 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>design</title>
     <link rel="stylesheet" href="./design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
         p {
             color: white;
         }
         h1 {
             color: white;
         }
+        .gradiant-1 {
+            background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+        }
+        .gradiant-2 {
+            background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(112, 255, 172, 1) 85%, rgba(237, 221, 83, 1) 100%);
+        }
+        .gradiant-3{
+            background: linear-gradient(90deg,rgba(13, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        }
+        .gradiant-4{
+            background: linear-gradient(90deg,rgba(86, 0, 135, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        }
+        .button-content:hover{
+    background-color: transparent;
+    border: 3px solid pink;
+    color: rgb(255, 0, 43);
+}
+.button-content {
+      width: max-content;
+     color: rgb(255, 255, 255); 
+     background-color: red; 
+     font-size: 25px;
+     padding: 20px 50px;
+     margin-top: 30px;
+     border-radius: 9px;
+     text-transform: uppercase;
+}
+
     </style>
 </head>
-<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat; background-position: top;background-size: 2000px 550px; ">
-    <h1>trydo</h1>
-    <div id="div-1">
-        <p>Home</p>
-        <p>Service</p>
-        <p>About</p>
-        <p>Pages</p>
-        <p>Blocks</p>
-        <p>Contacts</p>
-        <button style="width: fit-content; background-color: brown ; color: black;"> buy now</button>
+<body class="montserrat-font">
+     <div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
+      background-position:top;
+      background-size: 2000px 550px;
+       height: 70vh;
+
+      ">
+     <div style="display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 50px ;">
+         <h1>trydo</h1>
+    <div style=" align-items: center;" id="div-1">
+         <p>Home</p>
+         <p>Service</p>
+         <p>About</p>
+         <p>Pages</p>
+         <p>Blocks</p>
+         <p>Contacts</p>
+         <button style="width: fit-content;
+         background-color: transparent ;
+          color: rgb(255, 255, 255);
+         padding: 10px;
+         margin-left: 20px;
+         text-transform: uppercase;
+         border-color: white;
+         border-width: 2px;
+         border-radius: 8px;"> buy now</button>
     </div>
-    <div id="div-2">
+     </div>
+     <div id="div-2">
           <h1 id="small">WE ARE AGENCY</h1>
     <H1 id="big"> TECHNOLOGY AND <br> INOVATION FOR <br> AGENCY SERVICES</H1>
-    <button style="width: max-content; color: rgb(0, 0, 0); background-color: rgb(255, 0, 0); font-size: 15px;">contuct us </button>
+    <button class="button-content"        
+  >
+     contuct us 
+     </button>
     </div>
-    <div id="div-3">
-        <div>
+     </div>
+    
+    <div id="div-3" style="display: flex; justify-content: center; padding-left:200px ;">
+        <div style="">
             <h1 style="font-size: 60px; color: black;">What do we do?</h1>
-            <h1 style="color:burlywood ; font-size: 20px;"> There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration in some form, by injected humour, or <br> randomised words which dont look even slightly believable.</h1>
-            <h1 style="color: black;">Our Working Process.</h1>
-    <div style="gap: 10px;">
+            <h1 style="color:#717173 ; font-size: 20px;"> There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration in some form, by injected humour, or <br> randomised words which dont look even slightly believable.</h1>
+            <h1 style="color: black; margin-top: 20px;">Our Working Process.</h1>
+    <div style="gap: 10px;
+    margin-top: 15px;">
         <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">designing</p>
          <p style="color: black;">81%</p>
+     </div>
+     <div class="gradiant-1">
+        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
       <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Managment</p>
          <p style="color: black;">70%</p>
      </div>
+     <div class="gradiant-2">
+        <p >ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     </div>
      <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Marketing</p>
          <p style="color: black;">85%</p>
+     </div>
+     <div class="gradiant-3">
+        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
      <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Development</p>
          <p style="color: black;">52%</p>
      </div>
+     <div class="gradiant-4">
+        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     </div>
      </div>
         </div>
-     <img id="image-1" src="https://trydo.rainbowit.net/assets/images/about/about-3.jpg" alt="">
-
+       <div style="flex-grow: 1;
+       display: flex;
+       justify-content: center;
+     
+       ">
+         <div>
+        <img id="image-1" src="https://trydo.rainbowit.net/assets/images/about/about-3.jpg" alt="" style="border-radius: 10px;
+        aspect-ratio: 9/16; width: 400px;"/>
+     </div>
+     </div>
+    </div>
+    <div style="display: flex; flex-direction: column; justify-content: center; padding-left: 500px;">
+        <h1 style="color: black; font-size: 40px;">Our Service</h1>
+        <h1 style="color: burlywood;">There are many variations of passages of Lorem Ipsum available, <br>
+        but the majority have suffered alteration.</h1>
     </div>
   
-
-    
 </body>
 </html>
