@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,10 +27,6 @@
         h1 {
             color: white;
         }
-        .gradiant-1 {
-            background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-
-        }
         .gradiant-2 {
             background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(112, 255, 172, 1) 85%, rgba(237, 221, 83, 1) 100%);
         }
@@ -55,11 +51,84 @@
      border-radius: 9px;
      text-transform: uppercase;
 }
+.card-div{
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+           padding: 30px;
+           border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           align-items: center;
+           color: white;
+}
+.text-center{
+    color:white; text-align: center;
+}
+.h1-text-center{
+    color:white; text-align: center ; font-size: 24px;
+}
+.service-content-div{
+    padding:20px 50px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.service-content-h1{
+    color: black; font-size: 40px;
+}
+.service-content-p{
+    color: burlywood; font-size: 20px;
+        text-align: center;
+}
+/* Mobile screen */
+@media (max-width:450px) {
+    .service-content-h1{
+    color: black; font-size: 30px;
+}
+.service-content-p{
+    color: burlywood; font-size: 16px;
+        text-align: center; padding: 5px 20px;
+}
+    .service-content-div{
 
+    grid-template-columns: 1fr  ;
+
+}
+.text-center{
+    font-size: 10px;
+}
+.h1-text-center{
+    font-size: 16px;
+}
+}
+/* tablet screen */
+@media (min-width:451px) and (max-width:768px) {
+        .service-content-h1{
+    color: black; font-size: 40px;
+}
+.service-content-p{
+    color: burlywood; font-size: 20px;
+        text-align: center; padding: 5px 20px;
+}
+        .service-content-div{
+
+    grid-template-columns: 1fr 1fr  ;
+
+
+}
+.text-center{
+    font-size: 15px;
+}
+.h1-text-center{
+    font-size: 22px;
+}
+}
     </style>
 </head>
 <body class="montserrat-font">
-     <div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
+     <!-- <div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
       background-position:top;
       background-size: 2000px 550px;
        height: 70vh;
@@ -96,9 +165,9 @@
      contuct us 
      </button>
     </div>
-     </div>
+     </div> -->
     
-    <div id="div-3" style="display: flex; justify-content: center; padding-left:200px ;">
+    <!-- <div id="div-3" style="display: flex; justify-content: center; padding-left:200px ;">
         <div style="">
             <h1 style="font-size: 60px; color: black;">What do we do?</h1>
             <h1 style="color:#717173 ; font-size: 20px;"> There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration in some form, by injected humour, or <br> randomised words which dont look even slightly believable.</h1>
@@ -109,8 +178,14 @@
          <p style="color: black;">designing</p>
          <p style="color: black;">81%</p>
      </div>
-     <div class="gradiant-1">
-        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     <div class="gradiant-1" style="position: relative; min-height: 25px">
+        <p style=" background: red; z-index: 50;
+        width: 100%; position: absolute;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+        <p style=" background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        z-index: 51;
+        width: 81%; position: absolute;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
       <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Managment</p>
@@ -145,98 +220,51 @@
         aspect-ratio: 9/16; width: 400px;"/>
      </div>
      </div>
-    </div>
+    </div> -->
     <div style="display: flex; 
     flex-direction: column; 
     justify-content: center;
      align-items: center;">
-        <h1 style="color: black; font-size: 40px;">Our Service</h1>
-        <h1 style="color: burlywood; font-size: 20px;">There are many variations of passages of Lorem Ipsum available, <br>
-        but the majority have suffered alteration.</h1>
+        <h1 class="service-content-h1">Our Service</h1>
+        <p
+         class="service-content-p">There are many variations of passages of Lorem Ipsum available, <br>
+        but the majority have suffered alteration.</p>
     </div>
- <div style=" padding:20px 50px; display: grid; 
-        grid-template-columns: 1fr 1fr 1fr ; gap: 20px;
-      justify-content: space-between;
-    
-      margin-top: 50px;">
-           <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
+ <div class="service-content-div">
+           <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
        
-   <h1 style="color:white; text-align: center ; font-size: 24px;"> Business stratagy</h1>
+   <h1 class="h1-text-center"> Business stratagy</h1>
 
-   <p style="color:white; text-align: center;" >I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+   <p class="text-center" >I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
-    <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
-        <h1 style="color:white; text-align: center ; font-size: 24px;">website development</h1>
-        <p style="color:white; text-align: center;">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+    <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
+        <h1 class="h1-text-center">website development</h1>
+        <p class="text-center">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
-    <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
-        <h1 style="color:white; text-align: center ; font-size: 24px;">Merketing and reporting</h1>
-        <p style="color:white; text-align: center;">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+    <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
+        <h1 class="h1-text-center">Merketing and reporting</h1>
+        <p class="text-center">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
-    <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
-        <h1 style="color:white; text-align: center ; font-size: 24px;">mobile app development</h1>
-        <p style="color:white; text-align: center;">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+    <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
+        <h1 class="h1-text-center">mobile app development</h1>
+        <p class="text-center">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
-    <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
-        <h1 style="color:white; text-align: center ; font-size: 24px;">mobile app development</h1>
-        <p style="color:white; text-align: center;">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+    <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
+        <h1 class="h1-text-center">mobile app development</h1>
+        <p class="text-center">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
-    <div style="background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-           padding: 30px;
-           border-radius: 10px;
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           align-items: center;
-           color: white;">
-            <i style="font-size: 50px;" class="fa-solid fa-people-arrows"></i>
-        <h1 style="color:white; text-align: center ; font-size: 24px;">mobile app development</h1>
-        <p style="color:white; text-align: center;">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
+    <div class="card-div">
+            <i  class="fa-solid fa-people-arrows text-center"></i>
+        <h1 class="h1-text-center">mobile app development</h1>
+        <p class="text-center">I throw myself down among the <br> tall grass by the stream as i lie <br>close to the earth</p>
     </div>
  </div>
     
     </div>
-
-  
 </body>
 </html>
