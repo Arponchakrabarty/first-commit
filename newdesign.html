@@ -27,15 +27,6 @@
         h1 {
             color: white;
         }
-        .gradiant-2 {
-            background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(112, 255, 172, 1) 85%, rgba(237, 221, 83, 1) 100%);
-        }
-        .gradiant-3{
-            background: linear-gradient(90deg,rgba(13, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-        }
-        .gradiant-4{
-            background: linear-gradient(90deg,rgba(86, 0, 135, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-        }
         .button-content:hover{
     background-color: transparent;
     border: 3px solid pink;
@@ -82,10 +73,50 @@
     color: burlywood; font-size: 20px;
         text-align: center;
 }
+.tech {
+    font-size: 80px;
+}
+.small {
+    font-size: 15px;
+}
+.what {
+    font-size: 60px; 
+    color: black;
+}
+.div-1 {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
+      background-position:top;
+      background-size: 2000px 550px;
+       height: 70vh;
+    
+}
+.div-3 {
+    display: flex; 
+    justify-content: center; 
+    padding-left:200px ;
+}
+.p-1{
+    background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        z-index: 51;
+        width: 81%; position: absolute;
+}
+.p2{
+    z-index: 50;
+                width: 100%; position: absolute;
+}
+.g1{
+    position: relative; min-height: 25px;
+    /* justify-self: baseline; */
+    
+}
+.div-4 {
+    gap: 10px;
+    margin-top: 15px;
+}
 /* Mobile screen */
-@media (max-width:450px) {
-    .service-content-h1{
-    color: black; font-size: 30px;
+@media (max-width:450px){
+        .service-content-h1{
+    color: black;
+    font-size: 30px;
 }
 .service-content-p{
     color: burlywood; font-size: 16px;
@@ -102,7 +133,64 @@
 .h1-text-center{
     font-size: 16px;
 }
+    .tech {
+    font-size: 30px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
 }
+.small {
+    font-size: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.button-content {
+      width: max-content;
+     color: rgb(255, 255, 255); 
+     font-size: 15px;
+     padding: 10px 30px;
+     margin-top: 30px;
+     border-radius: 9px;
+     text-transform: uppercase;
+}
+.what {
+    font-size: 40px; 
+    color: black;
+}
+.div-1 {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
+      background-position:top;
+      background-size: 1000px 550px;
+       height: 70vh;
+       width: 100vw;
+}
+.p-1{
+    background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        z-index: 51;
+        width: 81%; position: absolute;
+}
+.p2{
+    z-index: 50;
+                width: 100%; position: absolute;
+}
+.g1{
+    position: relative; min-height: 25px
+}
+.div-3 {
+    display: grid; 
+    grid-template-columns: 1fr;
+    justify-content: center; 
+    padding-right:300px ;
+    align-items: center;
+    
+}
+.div-4 {
+    gap: 10px;
+    margin-top: 15px;
+}
+}
+
+
 /* tablet screen */
 @media (min-width:451px) and (max-width:768px) {
         .service-content-h1{
@@ -115,8 +203,6 @@
         .service-content-div{
 
     grid-template-columns: 1fr 1fr  ;
-
-
 }
 .text-center{
     font-size: 15px;
@@ -124,17 +210,41 @@
 .h1-text-center{
     font-size: 22px;
 }
+    .tech {
+    font-size: 50px;
+     display: flex;
+     flex-direction: column;
+}
+.small {
+    font-size: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.button-content {
+      width: max-content;
+     color: rgb(255, 255, 255); 
+     font-size: 15px;
+     padding: 10px 30px;
+     margin-top: 30px;
+     border-radius: 9px;
+     text-transform: uppercase;
+}
+.div-1 {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
+      background-position:top;
+      background-size: 2000px 550px;
+       height: 70vh;
+       width: 100vw;
+}
+
 }
     </style>
 </head>
 <body class="montserrat-font">
-     <!-- <div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aqubvf0o8hbwTSkwmeaVsooRe_eOIwYBCrYxKrwGS5kRy_2lwCJdc_F2&s=10); background-repeat: no-repeat;
-      background-position:top;
-      background-size: 2000px 550px;
-       height: 70vh;
+     <div class="div-1"
 
-      ">
-     <div style="display: flex;
+      >
+     <!-- <div style="display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 30px 50px ;">
@@ -156,57 +266,78 @@
          border-width: 2px;
          border-radius: 8px;"> buy now</button>
     </div>
-     </div>
-     <div id="div-2">
-          <h1 id="small">WE ARE AGENCY</h1>
-    <H1 id="big"> TECHNOLOGY AND <br> INOVATION FOR <br> AGENCY SERVICES</H1>
+     </div> -->
+     <div>
+          <h1 class="small">WE ARE AGENCY</h1>
+    <H1 class="tech"> TECHNOLOGY AND <br> INOVATION FOR <br> AGENCY SERVICES</H1>
     <button class="button-content"        
   >
      contuct us 
      </button>
     </div>
-     </div> -->
+     </div> 
     
-    <!-- <div id="div-3" style="display: flex; justify-content: center; padding-left:200px ;">
-        <div style="">
-            <h1 style="font-size: 60px; color: black;">What do we do?</h1>
+     <div class="div-3" >
+        <div class="what-content div">
+            <h1 class="what">What do we do?</h1>
             <h1 style="color:#717173 ; font-size: 20px;"> There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration in some form, by injected humour, or <br> randomised words which dont look even slightly believable.</h1>
             <h1 style="color: black; margin-top: 20px;">Our Working Process.</h1>
-    <div style="gap: 10px;
-    margin-top: 15px;">
-        <div style="display: flex; justify-content: space-between;">
-         <p style="color: black;">designing</p>
-         <p style="color: black;">81%</p>
-     </div>
-     <div class="gradiant-1" style="position: relative; min-height: 25px">
-        <p style=" background: red; z-index: 50;
-        width: 100%; position: absolute;
-        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
-        <p style=" background: linear-gradient(90deg,rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-        z-index: 51;
-        width: 81%; position: absolute;
-        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
-     </div>
-      <div style="display: flex; justify-content: space-between;">
-         <p style="color: black;">Managment</p>
+            <div class="div-4">
+            <div style="display: flex; justify-content: space-between;">
+                  <p style="color: black;">designing</p>
+                 <p style="color: black;">81%</p>
+            </div>
+             <div class="g1">
+              <p class="p2"
+                >ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                <p class="p-1"
+                >ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+            </div>
+      <div style="display: flex;
+       justify-content: space-between;
+      ">
+         <p class="peragraph" style="color: black;">Managment</p>
          <p style="color: black;">70%</p>
      </div>
-     <div class="gradiant-2">
-        <p >ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     <div class="gradiant-2" style="position: relative; min-height: 25px;">
+        <p style="position: absolute; width: 100%;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+        <p style="background: linear-gradient(90deg,rgba(13, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        width: 70%;
+         position: absolute;
+         "
+         >
+         ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
      <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Marketing</p>
          <p style="color: black;">85%</p>
      </div>
-     <div class="gradiant-3">
-        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     <div class="gradiant-3" style="position: relative;">
+         <p style=" background: linear-gradient(90deg,rgba(13, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        width: 85%;
+        position: absolute;
+        z-index: 50;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+         <p style=" width: 100%; 
+         position: relative;
+         z-index: 49;
+         ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
      <div style="display: flex; justify-content: space-between;">
          <p style="color: black;">Development</p>
          <p style="color: black;">52%</p>
      </div>
-     <div class="gradiant-4">
-        <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+     <div class="gradiant-4" style="position: relative;">
+        <p style="background: linear-gradient(90deg,rgba(86, 0, 135, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        position: absolute;
+        width: 52%;
+        z-index: 10;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+        <p style="position: absolute;
+        width: 100%;
+        z-index: 1;
+        ">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
      </div>
      </div>
         </div>
@@ -216,11 +347,11 @@
      
        ">
          <div>
-        <img id="image-1" src="https://trydo.rainbowit.net/assets/images/about/about-3.jpg" alt="" style="border-radius: 10px;
-        aspect-ratio: 9/16; width: 400px;"/>
+        <!-- <img id="image-1" src="https://trydo.rainbowit.net/assets/images/about/about-3.jpg" alt="" style="border-radius: 10px;
+        aspect-ratio: 9/16; width: 400px;"/> -->
      </div>
      </div>
-    </div> -->
+    </div> 
     <div style="display: flex; 
     flex-direction: column; 
     justify-content: center;
