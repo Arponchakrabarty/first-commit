@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-color: black;
+
+}
+.title-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+.buy-button {
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.digital {
+    color: red;
+    font-size: 70px;
+    margin-left: 400px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.box-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.who-div {
+    display: flex;
+    gap: 50px;
+}
+.about-div{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
