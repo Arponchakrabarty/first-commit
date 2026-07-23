@@ -5,55 +5,323 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flowershop</title>
     <link rel="stylesheet" href="./flowershop.css">
+    <style>
+        .div-1 {
+    background-color: rgba(208, 172, 191, 0.8);
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    padding:0px 100px;
+
+}
+        .content-1{
+            position: relative;
+        }
+        .hh{
+            font-size: 60px;
+        }
+        .pp{
+            font-size: 35px; margin-top: 20px;
+        }
+        .img-1{
+            bottom:50px; margin-top: 17px;
+        }
+        .button-1 {
+            background-color:#E55473 ;
+            border-radius: 8px;
+            border: 0px;
+            padding: 15px 40px;
+            color: white;
+            margin-top: 30px;
+            }
+            /* our div */
+            .our-div {
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                text-align: center;
+                margin-bottom: 50px; 
+                margin-top: 50px;
+            }
+            .ho{
+                font-size: 40px;
+            }
+            .po{
+                color: gray;
+         font-size:20px;
+            }
+            .flr3{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 30px 300px;
+                padding-left: 400px;
+                align-items: center;
+                 justify-content: center;
+              }
+              .deal-div{
+                background-color: #ffa6b9;
+                margin-bottom: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 150px 150px;
+              }
+              .hd{
+                font-size: 40px;
+              }
+              .pd{
+                font-size: 20px;
+              }
+              .button2{
+                background-color:#E55473 ;
+                border-radius: 8px;
+                border: 0px;
+                padding: 15px 40px;
+                color: white;
+                width: fit-content;
+              }
+              .flr4{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                justify-content: space-between;
+                padding:0 200px;
+                align-items: center;
+                align-content: center;
+                gap: 10px;
+                margin-bottom: 100px;
+              }
+              .email-div{
+                background-image: url(./Rectangle\ 9.png);
+                background-repeat: no-repeat;
+                height: 50vh;
+                width: 80vw;
+                background-size: 1490px 500px;
+                align-content: center; 
+                gap:20px ;
+                margin-bottom: 100px;
+                margin-left:200px;
+              }
+              .email-2{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+              }
+              .email-3{
+                display: flex;
+                 flex-direction: row;
+                 align-items: center;
+                  justify-content: center;
+              }
+              .inp{
+                width: 300px;
+            height: 30px;
+              }
+              button{
+                background-color:#E55473 ;
+                 border-radius: 8px;
+                 border: 0px;
+                 padding: 15px 40px;
+                 color: white;
+              }
+              .hi {
+                font-size: 40px;
+              }
+              .pi{
+                font-size: 10px; text-align: center;
+        color: #695e5e;
+              }
+           
+
+
+
+
+
+
+        /* mobile screen */
+        @media (max-width:450px) {
+              .div-1 {
+            background-color: rgba(208, 172, 191, 0.8);
+            display: flex;
+            height: 30vh;
+            padding: 10px;
+            margin: 0;
+            gap: 30px;}
+
+
+            .content-1{
+           
+          justify-content: baseline;
+        }
+             .hh{
+            font-size: 24px;
+        }
+        .pp{
+            font-size: 9px; margin-top: 20px;
+            text-align: start;
+        }
+         .img-1{display: none;}
+         .button-1 {
+            background-color:#E55473 ;
+            border-radius: 8px;
+            border: 0px;
+            padding: 10px 20px;
+            color: white;
+            margin-top: 30px;
+            }
+            .ho{
+                font-size: 20px;
+            }
+            .po{
+         font-size:10px; }
+           .flr3{
+                display: grid;
+                grid-template-columns: 1fr ;
+                padding: 20px;
+              }
+              .deal-div{
+                background-color: #ffa6b9;
+                margin-bottom: 100px;
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 0px;
+                
+              }
+              .hd{
+                font-size: 24px;
+              }
+               .pd{
+                font-size: 10px;
+              }
+               .button2{
+                background-color:#E55473 ;
+                border-radius: 8px;
+                border: 0px;
+                padding: 10px 30px;
+                color: white;
+                width: fit-content;
+              }
+              .flr4{
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 0;
+                gap: 50px;
+              }
+              .email-div{
+                background-image: url(./Rectangle\ 9.png);
+                background-repeat: no-repeat;
+                height: 50vh;
+                /* width: 100vw; */
+                align-content: center; 
+                gap:20px ;
+                margin-bottom: 100px;
+                
+                
+              }
+              .hi {
+                font-size: 30px;
+              }
+
+
+            
+
+
+        }
+         
+    
+
+
+        /* tablet screen */
+        @media (min-width:451px) and (max-width:768px) {
+            .div-1 {
+            background-color: rgba(208, 172, 191, 0.8);
+            display: flex;
+            height: 50vh;
+            padding: 20px;
+            margin: 0;
+            gap: 30px;}
+
+            .img-1{display: none;}
+
+              .hh{
+            font-size: 32px;
+        }
+
+        .pp{
+            font-size: 17px; margin-top: 20px;
+            text-align: start;
+        }
+         .button-1 {
+            background-color:#E55473 ;
+            border-radius: 8px;
+            border: 0px;
+            padding: 15px 40px;
+            color: white;
+            margin-top: 30px;
+            }
+            .deal-div{
+                background-color: #ffa6b9;
+                margin-bottom: 100px;
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 0px;
+                
+              }
+            .flr3{
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                gap: 30px;
+              }
+              .flr4{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 0;
+              }
+
+
+            
+        }
+
+
+
+
+
+    </style>
 </head>
 <body>
     <!-- 1st part -->
     <div class="div-1" >
-        <div class="conent-1" style="position: relative;">
-       <h1 style="font-size: 60px; "> Let's make <br> beautiful flowers a <br> part of your life.</h1>
-       <p style="font-size: 35px; margin-top: 20px; "> It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using Lorem Ipsum is <br> that it has a more-or-less normal distribution of letters.</p>
+        <div class="conent-1">
+       <h1 class="hh"> Let's make <br> beautiful flowers a <br> part of your life.</h1>
+       <p class="pp"> It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using Lorem Ipsum is <br> that it has a more-or-less normal distribution of letters.</p>
        <button class="button-1">
         Shop now
        </button>
     </div>
     <div style="position: absolute; right:0; margin-right: 100px;">
         <div >
-        <img class="img-1" style=" bottom:50px; margin-top: 17px;" src="./image flower/flower2.png" alt="">
+        <img class="img-1" src="./image flower/flower2.png" alt="">
     </div>
     </div>
     </div>
     <!-- our -->
-     <div style="display: flex;
-      flex-direction: column; 
-      align-items: center;
-       text-align: center;
-       margin-bottom: 50px; 
-       margin-top: 50px;">
-       
-        <h1 style="font-size: 40px;">Our Featured Flowers</h1>
-        <p style="color: gray;
-         font-size:20px;
-         ">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+     <div class="our-div">
+        <h1 class="ho">Our Featured Flowers</h1>
+        <p class="po">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
      </div>
      <!-- 3 flower -->
-     <div style=" display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     padding: 30px 300px;
-     padding-left: 400px;
-      /* background-color: black; */
-      align-items: center;
-      justify-content: center;
-      "
-      > <div style="position: relative;
+     <div class="flr3" >
+         <div style="position: relative;
        width: 250px;
        height: 250p;">
           <div>
-             <img style="height: 350px; z-index: 2;" src="./image flower/Rectangle 3.png" alt="">
-             <img style="height: 300px;
+             <img style="height: 300px;" src="./image flower/Rectangle 3 (2).png" alt="">
+             <img style="height: 250px;
               position: absolute;
                bottom: 4px;
                left: 50px;
-               z-index: 1;" src="./image flower/flower1.png" alt="">
+               " src="./image flower/flower1.png" alt="">
                
             
         </div>
@@ -62,8 +330,8 @@
        width: 250px;
        height: 250p;">
           <div>
-             <img style="height: 350px; z-index: 2;" src="./image flower/Rectangle 3.png" alt="">
-             <img style="height: 230px;
+             <img style="height: 300px; z-index: 2;" src="./image flower/Rectangle 3 (2).png" alt="">
+             <img style="height: 170px;
               position: absolute;
                bottom: 15px;
                left: 40px;
@@ -76,8 +344,8 @@
        width: 250px;
        height: 250p;">
           <div>
-             <img style="height: 350px; z-index: 2;" src="./image flower/3rd ract.png" alt="">
-             <img style="height: 300px;
+             <img style="height: 300px; z-index: 2;" src="./image flower/3rd ract.png" alt="">
+             <img style="height: 250px;
               position: absolute;
                bottom: 4px;
                left: 50px;
@@ -85,36 +353,53 @@
         </div>
        </div>
      </div>
-     <!-- contact -->
-    <div class="main-contact" style=" background-color: rgba(171, 171, 171, 0.8); display: flex;
-    width: 50%; height: 10%;
-    padding: 150px;
-            grid-template-columns: 1fr 1fr 1fr;
-             padding: 300px;
-             margin-bottom: 100px;
-             ">
-        <div style="display: flex;
-        flex-direction: column;">
-            <img style="height: 60px;
-            width: 60px;" src="./image flower/con1.png" alt="">
-            <p>Same Day delivery. Click And Collect</p>
-        </div>
-
-
-        <div style="display: flex;
-        flex-direction: column;">
-            <img style="height: 60px;
-            width: 60px;" src="./image flower/Con2.png" alt="">
-            <p>Fresh Flowes. Local Growers</p>
-        </div>
-
-
-        <div style="display: flex;
-        flex-direction: column;">
-            <img style="height: 60px;
-            width: 60px;" src="./image flower/con3.png" alt="">
-            <p>24/7 Free Support</p>
-        </div>
+     <!-- deal -->
+   <div class="deal-div">
+     <div style="display: flex;
+     flex-direction: column;
+     gap: 15px;" >
+        <h1 class="hd">Hot Deal ! Sale Up To 25% Off</h1>
+        <p class="pd">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+        <button class="button2">
+            Sign Up
+        </button>
     </div>
+    <div>
+        <img src="./image flower/pngwing 8 (1).png" alt="">
+    </div>
+   </div>
+   <!-- insta -->
+    <div style="display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;"
+    >
+        <h1 class="hi">Instagram</h1>
+        <p class="pi">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+    </div>
+
+    <!-- 4 flower -->
+     <div class="flr4">
+        <img src="./image flower/Rectangle 3 (6).png" alt="">
+        <img src="./image flower/Rectangle 4.png" alt="">
+        <img src="./image flower/Rectangle 5.png" alt="">
+        <img src="./image flower/Rectangle 6.png" alt="">
+     </div>
+
+
+     <!-- email part -->
+      <!-- <div class="email-div">
+        <div class="email-2">
+            <h1>Get The Latest Deals</h1>
+            <p>$30 coupon for first shopping</p>
+        </div>
+
+        <div class="email-3">
+            <input class="inp" type="email" placeholder="Write your email here">
+            <button class="button"
+            >Subscribe</button>
+        </div>
+      </div> -->
 </body>
 </html>
