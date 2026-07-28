@@ -35,6 +35,11 @@ body{
     bottom: 0px;
     right: 100px;
 }
+.img-1div{
+    padding: 0;
+
+}
+
 .button-1{
     padding: 15px 30px;
     border-radius: 9px;
@@ -58,6 +63,9 @@ body{
     padding: 50px 200px;
     align-items: center;
      margin-bottom: 100px;
+}
+.div-5h{
+    font-size: 48px;
 }
 .imgg{
     height: 489px;
@@ -98,6 +106,9 @@ body{
     align-items: center;
     margin-bottom: 100px;
 }
+.div-5p{
+    color:rgba(169, 75, 176, 1) ; font-size: 48px;
+}
 .div-6{
     display: flex;
     flex-direction: row;
@@ -108,7 +119,10 @@ body{
 .div-7{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 30px;
     margin-bottom:100px ;
+    
 }
 .div-8{
     display: flex;
@@ -129,6 +143,19 @@ body{
 .img3{
     height: 710.83px;
     width: 730px;
+}
+.imgh1{
+    font-size: 48px; 
+    color:rgba(169, 75, 176, 1); 
+    text-align: left;
+}
+.imgh2{
+    font-size: 48px;
+     text-align: left;
+}
+.imgp1{
+    font-size: 18px; 
+    text-align: left;
 }
 .h5{
     font-size: 48px; 
@@ -162,6 +189,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.lstimg{
+    height: fit-content;
 }
 .div-15{
     display: flex;
@@ -232,16 +262,13 @@ body{
 }
 
 
-/* tablet screen */
+/* mobile screen */
 @media (max-width:450px) {
-       .div-1{
-    /* height: 50vh; */
+           .div-1{
     display: flex;
     flex-direction: column-reverse;
     height: 100vh;
-    /* padding: 10px 500px; */
-
-    
+    margin-bottom:50px ;
 }
 .h1{
     font-size: 30px;
@@ -254,10 +281,12 @@ body{
 }
 .img-1{
    
-    bottom: 550px;
-    height: 310px;
-    width: 310px;
+    bottom: 450px;
+    height: 300px;
+    width: 300px;
+    left: 17px;
 }
+
 .button-1{
     padding: 15px 30px;
     border-radius: 9px;
@@ -275,45 +304,58 @@ body{
     background-color: rgba(38, 204, 218, 0.8);
     width: max-content;
 }
+.div-3{
+    background-color: rgba(251, 221, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+   
+}
 .imgg{
-    height: 300px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
+    right: 120px;
 }
 .hh{
-    font-size: 38px;
+    font-size: 30px;
      color: rgba(169, 75, 176, 1);
      text-align: center;
 }
 .pp{
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
 }
 .button-3{
-    padding: 15px 30px;
-    border-radius: 9px;
-    border: 0px;
-    background-color: rgba(234, 1, 121, 0.8);
     height: fit-content;
+    border-radius: 20px;
     width: max-content;
-    margin-right: 300px;
-    color: white;
 }
 .hhh{
-    color: #534C64;
-    text-align: center;
-    font-size: 28px;
+   font-size: 20px;
+   text-align: center;
 }
 .ppp{
     color: #534C64 ;
+    font-size: 18px;
     text-align: center;
-    
+}
+.div-5h{
+    font-size: 25px;
+}
+.div-5p{
+    color:rgba(169, 75, 176, 1) ; font-size: 25px;
 }
 .div-7{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 50px;
+    gap: 30px;
     margin-bottom:100px ;
-    padding: 0px 50px;
-       
+    
+}
+.img3{
+    height: 300px;
+    width: 300px;
 }
 .h5{
     font-size: 30px; 
@@ -324,11 +366,58 @@ body{
     font-size: 30px; text-align: center;
 }
 .p5{
-    font-size: 18px; text-align: center;
+    font-size: 10px; text-align: center;
 }
-.img3{
-    height: 50px;
-    width: 50px;
+.div-9{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
 }
+.imgh1{
+    font-size: 20px; 
+    color:rgba(169, 75, 176, 1); 
+    text-align:center;
+}
+.imgh2{
+    font-size: 20px;
+     text-align: center;
+}
+.imgp1{
+    font-size: 10px; 
+    text-align: 
+    center;
+}
+.div-11{
     
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.div-13{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(241, 26, 137, 0.8);
+    padding: 50px ;
+    margin-bottom: 100px;
+}
+.div-14{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+.lstimg{
+    height: 300px;
+    width: 300px;
+}
+
+
+
 }
